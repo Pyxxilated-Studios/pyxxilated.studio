@@ -1,30 +1,28 @@
 <main>
-	<header id="menu">
+	<header>
 		<nav>
 			<a href="/" class="brand"><h2>Pyxxilated Studios</h2></a>
 
-			<div class="brand-links">
-				<ul>
-					<li>
-						<a href="/blog" class="brand-link">Blog</a>
-					</li>
-					<li>
-						<a href="/projects" class="brand-link">Projects</a>
-					</li>
-					<li>
-						<a href="/about" class="brand-link">About</a>
-					</li>
-				</ul>
-			</div>
+			<ul class="brand-links">
+				<li>
+					<a href="/blog" class="brand-link">Blog</a>
+				</li>
+				<li>
+					<a href="/projects" class="brand-link">Projects</a>
+				</li>
+				<li>
+					<a href="/about" class="brand-link">About</a>
+				</li>
+			</ul>
 		</nav>
 	</header>
 
-	<div id="content">
+	<div class="content">
 		<slot />
 	</div>
 
-	<footer class="side-pane">
-		<ul class="side-links">
+	<footer>
+		<ul>
 			<li>
 				<a href="https://www.github.com/pyxxil" aria-label="Github">
 					<svg class="icon" xmlns="http://www.w3.org/2000/svg">
@@ -56,24 +54,6 @@
 			</li>
 		</ul>
 	</footer>
-
-	<div class="right-pane">
-		<div id="wcb" class="wcb carbonbadge wcb-d">
-			<ul id="wcb_p">
-				<li>
-					<p id="wcb_g">Measuring CO<sub>2</sub>&hellip;</p>
-				</li>
-				<li>
-					<a id="wc_l" target="_blank" rel="noopener" href="https://websitecarbon.com">
-						Website Carbon
-					</a>
-				</li>
-				<li>
-					<span id="wcb_2" />
-				</li>
-			</ul>
-		</div>
-	</div>
 </main>
 
 <style>
@@ -83,143 +63,43 @@
 		--background: #272635;
 	}
 
-	:global html,
-	:global #svelte {
+	:global html {
 		height: 100%;
 	}
 
 	:global body {
-		height: calc(100% - 6em);
 		background-color: var(--background);
 		margin-top: 4em;
 		font: 16px 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
 			'Lucida Grande', sans-serif;
 	}
 
-	main,
-	header {
-		background-color: var(--background);
+	:global .codehilite {
+		overflow-x: auto;
+		font-family: 'Courier New', Courier, monospace;
+	}
+
+	:global img {
+		border-radius: 0.5em;
+		float: left;
+		margin-right: 1em;
+		width: 10em;
+		height: 10em;
+	}
+
+	:global .blog-post {
+		margin-bottom: 3em;
 	}
 
 	main {
 		display: flex;
 		flex-direction: column;
-		height: 100%;
-	}
-
-	#content {
+		align-items: center;
 		flex: 1 0 auto;
 	}
 
-	.icon {
-		width: 24px;
-		height: 24px;
-		stroke: var(--primary);
-		stroke-width: 2;
-		stroke-linecap: round;
-		stroke-linejoin: round;
-		fill: none;
-	}
-
-	@media only screen and (max-width: 450px) {
-		header,
-		nav {
-			flex-direction: column !important;
-			align-items: flex-start !important;
-		}
-
-		nav {
-			margin: 0 !important;
-		}
-
-		nav h2 {
-			margin: 0.5em 0;
-		}
-
-		.brand-links ul {
-			margin: 0;
-			margin-block: 0;
-			margin: 0;
-			padding: 0;
-		}
-	}
-
-	@media only screen and (max-width: 767px), (max-height: 599px) {
-		.side-pane,
-		.right-pane,
-		.carbonbadge ul {
-			display: flex;
-			justify-content: center;
-		}
-
-		.side-pane li:last-of-type,
-		.right-pane li:last-of-type {
-			margin-bottom: 0 !important;
-		}
-
-		.side-links,
-		.right-pane,
-		.carbonbadge ul {
-			display: flex;
-			padding: 0;
-			margin: 0;
-			flex-direction: row !important;
-		}
-
-		.side-links::after,
-		.right-pane::after {
-			display: none !important;
-		}
-
-		#content {
-			padding: 0 1em !important;
-		}
-	}
-
-	@media only screen and (min-width: 768px) and (min-height: 600px) {
-		.side-pane,
-		.right-pane {
-			width: 4em;
-			position: fixed;
-			bottom: 0;
-		}
-
-		.side-pane {
-			left: 0;
-			right: auto;
-		}
-
-		.right-pane {
-			right: 1em;
-		}
-
-		.side-links,
-		.right-pane {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			margin: 0;
-			padding: 0;
-			list-style: outside none none;
-		}
-
-		.side-links::after,
-		.carbonbadge::after {
-			content: '';
-			display: block;
-			width: 1px;
-			height: 5em;
-			margin: 0 auto;
-			background-color: var(--primary);
-		}
-
-		.side-pane li:last-of-type {
-			margin-bottom: 1em;
-		}
-
-		.carbonbadge li {
-			writing-mode: vertical-lr;
-		}
+	header {
+		background-color: var(--background);
 	}
 
 	header {
@@ -233,7 +113,7 @@
 		align-items: center;
 		justify-content: space-between;
 		width: 100%;
-		margin: 1em;
+		margin-right: 1em;
 	}
 
 	nav a {
@@ -245,24 +125,45 @@
 		color: var(--primary);
 	}
 
-	.brand-links,
 	header,
 	nav {
 		display: flex;
 	}
 
-	.brand {
+	.brand h2 {
 		min-width: fit-content;
+		margin: 0.5em 1em;
 	}
 
-	.brand-links ul {
+	.brand-links {
 		display: flex;
 		list-style: outside none none;
+		margin: 0 1em;
+		padding: 0;
+		margin-block: 0;
 	}
 
 	.brand-link {
 		margin: 0 5px;
 		color: var(--primary);
+	}
+
+	.content {
+		min-width: 20em;
+		padding: 0 1em !important;
+		flex: 1 0 auto;
+		max-width: 50em;
+		margin-bottom: 2em;
+	}
+
+	:global .content a {
+		color: var(--accent);
+		text-decoration: none;
+		transition-duration: 0.25s;
+	}
+
+	:global .content a:hover {
+		text-decoration: underline;
 	}
 
 	a,
@@ -279,59 +180,49 @@
 		transform: scale(1.25);
 	}
 
-	.carbonbadge ul {
+	.icon {
+		width: 24px;
+		height: 24px;
+		stroke: var(--primary);
+		stroke-width: 2;
+		stroke-linecap: round;
+		stroke-linejoin: round;
+		fill: none;
+	}
+
+	footer {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		background-color: var(--background);
+	}
+
+	footer ul {
+		display: flex;
+		flex-direction: row !important;
+		align-items: center;
+		margin: 0;
 		padding: 0;
-		font-size: 0.75em;
+		list-style: outside none none;
 	}
 
-	#wc_l,
-	#wcb_2,
-	#wcb_g {
-		padding: 0;
-		margin: 0.5em 0;
-		color: var(--primary);
-		text-decoration: none;
-	}
-
-	:global #content {
-		min-width: 20em;
-		padding: 0 5em;
-	}
-
-	:global #content a {
-		color: var(--accent);
-		text-decoration: none;
-		transition-duration: 0.25s;
-	}
-
-	:global #content a:hover {
-		text-decoration: underline;
-	}
-
-	:global .codehilite {
-		overflow-x: auto;
-		font-family: 'Courier New', Courier, monospace;
-	}
-
-	.side-pane li,
-	.right-pane li {
+	footer li {
 		list-style: none;
 		margin: auto;
 		padding: 0.5em;
 	}
-	.side-pane li svg {
+
+	footer li svg {
 		fill: var(--primary);
 	}
 
-	:global img {
-		border-radius: 0.5em;
-		float: left;
-		margin-right: 1em;
-		width: 10em;
-		height: 10em;
-	}
-
-	:global .blog-post {
-		margin-bottom: 3em;
+	@media only screen and (max-width: 450px) {
+		header,
+		nav {
+			flex-direction: column !important;
+			align-items: flex-start !important;
+		}
 	}
 </style>

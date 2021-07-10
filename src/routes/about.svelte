@@ -11,7 +11,7 @@
 
 <h1 class="title">About</h1>
 
-<div style="min-height:10em">
+<div>
 	<img src="/Rilee.webp" alt="Rilee" />
 
 	<p>

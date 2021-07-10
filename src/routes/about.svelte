@@ -1,0 +1,93 @@
+<svelte:head>
+	<title>About</title>
+
+	<meta
+		name="description"
+		content="This is where you can find out all there is to know about my experience, both professionally and personally through projects"
+	/>
+
+	<link rel="canonical" href="https://www.pyxxilated.studio/about" />
+</svelte:head>
+
+<h1 class="title">About</h1>
+
+<div style="min-height:10em">
+	<img src="/Rilee.webp" alt="Rilee" />
+
+	<p>
+		As much as I would like to claim that the picture on the left is of me, I cannot. This is my dog
+		Rilee, and she helps to keep me somewhat sane during pretty much anything.
+	</p>
+
+	<p>
+		There's not much to say about me other than what can be found around, on my
+		<a href="/blog">Blog</a>,
+		<a href="https://www.github.com/pyxxil">GitHub</a>/
+		<a href="https://www.gitlab.com/pyxxil">Gitlab</a>, or
+		<a href="https://www.linkedin.com/in/pyxxil">LinkedIn</a>. I'm just someone who enjoys solving
+		problems, and programming just so happens to be the tool with which I do so.
+	</p>
+
+	<p>
+		Generally, I haven't stuck to one singular passion within programming. I'll often swap around
+		what I like to do, which may have lead me down to almost being a "Jack of All Trades, Master of
+		None", however I like to think most of the stuff I have done has all lead to making me a better
+		developer in some way. I've spent the past few years working on several personal projects, a few
+		of which you can find amongst my
+		<a href="/projects">Projects</a> page on this website.
+	</p>
+</div>
+
+<h2>Experience</h2>
+<p>
+	I'm currently employed as a Fullstack Developer at P^werFinance, a FinTech startup in Auckland.
+	Our tech stack is ever changing as we figure out the best way to do things, but in general it
+	involves the following:
+</p>
+<ul>
+	<li class="about-item">TypeScript/JavaScript (Frontend/Backend)</li>
+	<li class="about-item">React (Frontend)</li>
+	<li class="about-item">Rust</li>
+	<li class="about-item">Azure</li>
+	<li class="about-item">Bash/ZSH/Fish</li>
+	<li class="about-item">git</li>
+	<li class="about-item">Blockchain</li>
+</ul>
+
+<p>However I've also worked with, among other things, the following:</p>
+<ul>
+	<li class="about-item">Java</li>
+	<li class="about-item">Groovy</li>
+	<li class="about-item">Python</li>
+	<li class="about-item">Angular</li>
+	<li class="about-item">AWS</li>
+	<li class="about-item">BonitaSoft (Business Process Management)</li>
+	<li class="about-item">UiPath (Robotic Process Automation)</li>
+	<li class="about-item">C</li>
+	<li class="about-item">C++</li>
+	<li class="about-item">SQL (MSSql, MySQL, SQLite)</li>
+</ul>
+
+<p>
+	This has involved me doing Robotic Process Automation, Business Process Management, and
+	optimisation of a two decade old C++ codebase. Perhaps I should just provide a link to my resume
+	here &hellip;
+</p>
+
+<p>
+	In my own time, with the aforementioned projects, I've built up some skill with the following
+	technologies:
+</p>
+<ul>
+	<li class="about-item">C</li>
+	<li class="about-item">C++</li>
+	<li class="about-item">C#</li>
+	<li class="about-item">Debugging (gdb, lldb, rubber duck, print)</li>
+	<li class="about-item">HTML/CSS</li>
+	<li class="about-item">JavaScript/TypeScript</li>
+	<li class="about-item">Linux</li>
+	<li class="about-item">React</li>
+	<li class="about-item">Rust</li>
+	<li class="about-item">Valgrind</li>
+	<li class="about-item">And more &hellip;</li>
+</ul>

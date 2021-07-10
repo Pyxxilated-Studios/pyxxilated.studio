@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<link rel="dns-prefetch" href="https://api.pyxxilated.studio" crossorigin="anonymous" />
+
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+		<link rel="manifest" href="/site.webmanifest" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<meta name="theme-color" content="#272635" />
+
+		%svelte.head%
+	</head>
+	<body>
+		<style>
+			:root {
+				--primary: #ede8e8;
+				--accent: #ff5d73;
+				--background: #272635;
+			}
+
+			html,
+			#svelte {
+				height: 100%;
+			}
+
+			body {
+				height: calc(100% - 6em);
+				background-color: var(--background);
+				margin-top: 4em;
+				font: 16px 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+					'Lucida Grande', sans-serif;
+			}
+		</style>
+
+		<div id="svelte">%svelte.body%</div>
+	</body>
+</html>

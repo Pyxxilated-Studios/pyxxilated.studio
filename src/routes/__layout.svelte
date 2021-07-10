@@ -102,6 +102,29 @@
 		fill: none;
 	}
 
+	@media only screen and (max-width: 450px) {
+		header,
+		nav {
+			flex-direction: column !important;
+			align-items: flex-start !important;
+		}
+
+		nav {
+			margin: 0 !important;
+		}
+
+		nav h2 {
+			margin: 0.5em 0;
+		}
+
+		.brand-links ul {
+			margin: 0;
+			margin-block: 0;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
 	@media only screen and (max-width: 767px), (max-height: 599px) {
 		.side-pane,
 		.right-pane,

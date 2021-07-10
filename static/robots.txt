@@ -1,0 +1,3 @@
+user-agent: *
+
+Sitemap: https://www.pyxxilated.studio/sitemap.txt

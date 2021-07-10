@@ -61,46 +61,44 @@
 	<link rel="canonical" href="https://www.pyxxilated.studio/projects" />
 </svelte:head>
 
-<div>
-	<title>Projects</title>
+<title>Projects</title>
 
-	<h1 class="title">Projects</h1>
+<h1 class="title">Projects</h1>
 
-	<p>
-		I often have a few projects being worked on at any one time, and several of them are web-based.
-		This website has allowed me to host many of these rather simply, and you can find several of
-		these below.
-	</p>
-	<p>
-		Some of the projects below are not web based, but hopefully there's enough information on them
-		either below or on their project page. Feel free to peruse my Github to see what I've been up to
-		lately.
-	</p>
+<p>
+	I often have a few projects being worked on at any one time, and several of them are web-based.
+	This website has allowed me to host many of these rather simply, and you can find several of these
+	below.
+</p>
+<p>
+	Some of the projects below are not web based, but hopefully there's enough information on them
+	either below or on their project page. Feel free to peruse my Github to see what I've been up to
+	lately.
+</p>
 
-	{#each projects as project}
-		<div class="project">
-			<div class="project-header">
-				<a class="project-title" href={project.link}>
-					<h2>{project.title}</h2>
-				</a>
+{#each projects as project}
+	<div class="project">
+		<div class="project-header">
+			<a class="project-title" href={project.link}>
+				<h2>{project.title}</h2>
+			</a>
 
-				<div class="project-source">
-					(<a href={project.source}>source</a>)
-				</div>
-			</div>
-
-			<div class="project-description">
-				{#if Array.isArray(project.description)}
-					{#each project.description as paragraph}
-						<p>{paragraph}</p>
-					{/each}
-				{:else}
-					<p>{project.description}</p>
-				{/if}
+			<div class="project-source">
+				(<a href={project.source}>source</a>)
 			</div>
 		</div>
-	{/each}
-</div>
+
+		<div class="project-description">
+			{#if Array.isArray(project.description)}
+				{#each project.description as paragraph}
+					<p>{paragraph}</p>
+				{/each}
+			{:else}
+				<p>{project.description}</p>
+			{/if}
+		</div>
+	</div>
+{/each}
 
 <style>
 	.project {

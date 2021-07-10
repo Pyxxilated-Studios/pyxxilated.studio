@@ -32,10 +32,10 @@
   </p>
 </div>
 {% endfor %} {% if page.has_previous or page.has_next %} -->
-<div>
-	<!-- {% if page.has_previous %}
+<!-- <div>
+	{% if page.has_previous %}
   <a href="{{ page.previous }}"> Previous </a>
   {% endif %} {% if page.has_next %}
   <a href="{{ page.next }}"> Next </a>
-  {% endif %} -->
-</div>
+  {% endif %}
+</div> -->

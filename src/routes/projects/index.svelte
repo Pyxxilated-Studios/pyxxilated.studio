@@ -10,21 +10,21 @@
 		{
 			title: 'Budgie',
 			link: 'https://projects.pyxxilated.studio/budgie',
-			source: 'https://gitlab.com/pyxxilated-studios/Budgie',
+			source: 'https://github.com/Pyxxilated-Studios/Budgie',
 			description:
 				'Budgie is a simple budgeting App I am working on to keep track of my finances. It is written in TypeScript, using React + MaterialUI.'
 		},
 		{
 			title: 'Little Environment',
 			link: 'https://projects.pyxxilated.studio/little-env',
-			source: 'https://gitlab.com/pyxxilated-studios/little-environment',
+			source: 'https://github.com/Pyxxilated-Studios/little-environment',
 			description:
 				"Little Environment is a simple environment for the LC-3. After learning to how to program in the LC-3 Assembly language, and later having to write a simulator for it, I began to enjoy its simpleness. I've since written many projects around it, some of which can be found on my GitHub, and figured this would be an interesting challenge to undertake. It includes an Editor and Assembler, where the output is given in the LST file format that the Windows LC-3 Simulator emits."
 		},
 		{
 			title: 'Timeline',
 			link: 'https://projects.pyxxilated.studio/timeline',
-			source: 'https://gitlab.com/pyxxilated-studios/timeline',
+			source: 'https://github.com/Pyxxilated-Studios/timeline',
 			description: [
 				'Inspired by app-ideas repository, and their Advanced idea for creating a timeline that can display a users GitHub history, I decided to challenge myself even further.',
 				'Timeline is a small web application that strives to not only allow a user to easily display their history, it allows them to export the timeline they create so that they can add it to their own sites/apps.'
@@ -42,8 +42,8 @@
 		},
 		{
 			title: 'Wave',
-			link: 'https://projects.pyxxilated.studio/wave',
-			source: 'https://gitlab.com/pyxxilated-studios/wave',
+			link: 'https://projects.pyxxilated.studio/wave/',
+			source: 'https://github.com/Pyxxilated-Studios/wave',
 			description:
 				'This project is a rewrite/fork of a project I was a part of during my final semester as an Honours student at the University of Auckland. The original project is called Roll for Reaction, and is written in JavaScript whereas this is written in TypeScript.'
 		}

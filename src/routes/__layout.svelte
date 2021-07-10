@@ -77,6 +77,25 @@
 </main>
 
 <style>
+	:root {
+		--primary: #ede8e8;
+		--accent: #ff5d73;
+		--background: #272635;
+	}
+
+	:global html,
+	:global #svelte {
+		height: 100%;
+	}
+
+	:global body {
+		height: calc(100% - 6em);
+		background-color: var(--background);
+		margin-top: 4em;
+		font: 16px 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+			'Lucida Grande', sans-serif;
+	}
+
 	main,
 	header {
 		background-color: var(--background);

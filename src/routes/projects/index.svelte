@@ -46,6 +46,13 @@
 			source: 'https://github.com/Pyxxilated-Studios/wave',
 			description:
 				'This project is a rewrite/fork of a project I was a part of during my final semester as an Honours student at the University of Auckland. The original project is called Roll for Reaction, and is written in JavaScript whereas this is written in TypeScript.'
+		},
+		{
+			title: 'Terrible Hack',
+			link: 'https://terrible.pyxxilated.studio',
+			source: 'https://github.com/Pyxxil/TerribleHack',
+			description:
+				'Terrible Hack was a hackathon in which every participant was encouraged to come up with the most terrible ideas possible over 48 hours. As my friends and I are only capable of coming up with terrible ideas, it seemed like the perfect opportunity for some fun. Over the course of the hackathon, we came up with 20-25 ideas, and executed on 15 of them. These were all packaged under one website that you can see above.'
 		}
 	];
 </script>

@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>About</title>
+	<title>All About Me</title>
 
 	<meta
 		name="description"

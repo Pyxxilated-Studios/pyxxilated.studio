@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Blog</title>
+	<title>A Blog Which I Might Work On</title>
 
 	<meta
 		name="description"

@@ -58,7 +58,7 @@
 </script>
 
 <svelte:head>
-	<title>Projects</title>
+	<title>Projects made by Pyxxilated Studios</title>
 
 	<meta
 		name="description"

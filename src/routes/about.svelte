@@ -35,11 +35,11 @@
 </p>
 
 <h2>Experience</h2>
-<p>
-	I'm currently employed as a Fullstack Developer at P^werFinance, a FinTech startup in Auckland.
-	Our tech stack is ever changing as we figure out the best way to do things, but in general it
-	involves the following:
-</p>
+
+I'm currently employed as a Fullstack Developer at P^werFinance, a FinTech startup in Auckland. Our
+tech stack is ever changing as we figure out the best way to do things, but in general it involves
+the following:
+
 <ul>
 	<li class="about-item">TypeScript/JavaScript (Frontend/Backend)</li>
 	<li class="about-item">React (Frontend)</li>
@@ -50,7 +50,7 @@
 	<li class="about-item">Blockchain</li>
 </ul>
 
-<p>However I've also worked with, among other things, the following:</p>
+However I've also worked with, among other things, the following:
 <ul>
 	<li class="about-item">Java</li>
 	<li class="about-item">Groovy</li>
@@ -70,10 +70,8 @@
 	here &hellip;
 </p>
 
-<p>
-	In my own time, with the aforementioned projects, I've built up some skill with the following
-	technologies:
-</p>
+In my own time, with the aforementioned projects, I've built up some skill with the following
+technologies:
 <ul>
 	<li class="about-item">C</li>
 	<li class="about-item">C++</li>

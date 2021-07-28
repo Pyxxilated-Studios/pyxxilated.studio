@@ -84,40 +84,26 @@
 </p>
 
 {#each projects as project}
-	<div class="project">
-		<div class="project-header">
-			<a class="project-title" href={project.link}>
-				<h2>{project.title}</h2>
-			</a>
+	<div class="project-header">
+		<a class="project-title" href={project.link}>
+			<h2>{project.title}</h2>
+		</a>
 
-			<div class="project-source">
-				(<a href={project.source}>source</a>)
-			</div>
-		</div>
-
-		<div class="project-description">
-			{#if Array.isArray(project.description)}
-				{#each project.description as paragraph}
-					<p>{paragraph}</p>
-				{/each}
-			{:else}
-				<p>{project.description}</p>
-			{/if}
+		<div class="project-source">
+			(<a href={project.source}>source</a>)
 		</div>
 	</div>
+
+	{#if Array.isArray(project.description)}
+		{#each project.description as paragraph}
+			<p>{paragraph}</p>
+		{/each}
+	{:else}
+		<p>{project.description}</p>
+	{/if}
 {/each}
 
 <style>
-	.project {
-		display: flex;
-		flex-direction: column;
-		margin-bottom: 2em;
-	}
-
-	.project :last-child {
-		margin-bottom: 0;
-	}
-
 	.project-header {
 		align-items: baseline;
 		display: flex;
@@ -134,7 +120,7 @@
 	}
 
 	a:hover {
-		color: var(--primary) !important;
-		text-decoration: none !important;
+		color: var(--primary);
+		text-decoration: none;
 	}
 </style>

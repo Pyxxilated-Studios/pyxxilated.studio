@@ -2,11 +2,11 @@
 	<nav>
 		<a href="/"><h2>Pyxxilated Studios</h2></a>
 
-		<ul>
+		<div>
 			<a href="/blog">Blog</a>
 			<a href="/projects">Projects</a>
 			<a href="/about">About</a>
-		</ul>
+		</div>
 	</nav>
 </header>
 
@@ -110,7 +110,7 @@
 		display: flex;
 	}
 
-	nav ul {
+	nav div {
 		display: flex;
 		list-style: outside none none;
 		margin: 0 0.5em;
@@ -118,7 +118,7 @@
 		margin-block: 0;
 	}
 
-	nav ul a {
+	nav div a {
 		margin: 0 0.25em;
 		color: var(--primary);
 	}

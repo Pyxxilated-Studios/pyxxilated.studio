@@ -53,7 +53,7 @@
 
 	:global body {
 		background-color: var(--background);
-		margin-top: 2em;
+		margin-top: 2.5em;
 		font: 16px 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
 			'Lucida Grande', sans-serif;
 	}
@@ -82,7 +82,7 @@
 	}
 
 	header {
-		height: 3em;
+		height: 4em;
 		background-color: var(--background);
 		top: 0;
 		width: 100%;

@@ -1,4 +1,3 @@
-<!-- <main> -->
 <header>
 	<nav>
 		<a href="/" class="brand"><h2>Pyxxilated Studios</h2></a>
@@ -11,7 +10,7 @@
 	</nav>
 </header>
 
-<main class="content">
+<main>
 	<slot />
 </main>
 
@@ -41,7 +40,6 @@
 	</a>
 </footer>
 
-<!-- </main> -->
 <style>
 	:root {
 		--primary: #ede8e8;
@@ -133,7 +131,7 @@
 		color: var(--primary);
 	}
 
-	.content {
+	main {
 		min-width: 20em;
 		padding: 0 1em !important;
 		flex: 1 0 auto;
@@ -141,13 +139,13 @@
 		margin-bottom: 1.5em;
 	}
 
-	:global .content a {
+	:global main a {
 		color: var(--accent);
 		text-decoration: none;
 		transition-duration: 0.25s;
 	}
 
-	:global .content a:hover {
+	:global main a:hover {
 		text-decoration: underline;
 	}
 

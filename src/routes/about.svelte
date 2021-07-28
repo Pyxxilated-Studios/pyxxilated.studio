@@ -20,8 +20,7 @@
 
 <p>
 	There's not much to say about me other than what can be found around, on my
-	<a href="/blog">Blog</a>,
-	<a href="https://www.github.com/pyxxil">GitHub</a>/
+	<a href="/blog">Blog</a>, <a href="https://www.github.com/pyxxil">GitHub</a>/
 	<a href="https://www.gitlab.com/pyxxil">Gitlab</a>, or
 	<a href="https://www.linkedin.com/in/pyxxil">LinkedIn</a>. I'm just someone who enjoys solving
 	problems, and programming just so happens to be the tool with which I do so.
@@ -32,8 +31,7 @@
 	I like to do, which may have lead me down to almost being a "Jack of All Trades, Master of None",
 	however I like to think most of the stuff I have done has all lead to making me a better developer
 	in some way. I've spent the past few years working on several personal projects, a few of which
-	you can find amongst my
-	<a href="/projects">Projects</a> page on this website.
+	you can find amongst my <a href="/projects">Projects</a> page on this website.
 </p>
 
 <h2>Experience</h2>

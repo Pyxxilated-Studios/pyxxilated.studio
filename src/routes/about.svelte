@@ -34,6 +34,14 @@
 	you can find amongst my <a href="/projects">Projects</a> page on this website.
 </p>
 
+<p>
+	While I've spent most of my career as a Fullstack Software Developer, it's not exactly my passion.
+	My passion mainly lies in optimisation, and writing efficient code. It just so happens to be
+	easiest to find a job as a web developer, and working on that kind of stuff in my own time.
+	However, I'm always open to hearing about jobs that would enable me to do such things (and if it
+	uses a systems programming language, even better).
+</p>
+
 <h2>Experience</h2>
 
 I'm currently employed as a Software Engineer at P^werFinance, a FinTech startup in Auckland. Our

@@ -70,14 +70,6 @@
 		font-family: 'Courier New', Courier, monospace;
 	}
 
-	:global img {
-		border-radius: 0.5em;
-		float: left;
-		margin-right: 1em;
-		width: 10em;
-		height: 10em;
-	}
-
 	main {
 		margin-bottom: 3em;
 	}

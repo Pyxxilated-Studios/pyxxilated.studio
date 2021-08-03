@@ -9,7 +9,7 @@
 	<link rel="canonical" href="https://www.pyxxilated.studio/about" />
 </svelte:head>
 
-<h1 class="title">About</h1>
+<h1>About</h1>
 
 <img src="/Rilee.webp" alt="Rilee" />
 
@@ -36,52 +36,63 @@
 
 <h2>Experience</h2>
 
-I'm currently employed as a Fullstack Developer at P^werFinance, a FinTech startup in Auckland. Our
+I'm currently employed as a Software Engineer at P^werFinance, a FinTech startup in Auckland. Our
 tech stack is ever changing as we figure out the best way to do things, but in general it involves
 the following:
 
 <ul>
-	<li class="about-item">TypeScript/JavaScript (Frontend/Backend)</li>
-	<li class="about-item">React (Frontend)</li>
-	<li class="about-item">Rust</li>
-	<li class="about-item">Azure</li>
-	<li class="about-item">Bash/ZSH/Fish</li>
-	<li class="about-item">git</li>
-	<li class="about-item">Blockchain</li>
+	<li>TypeScript/JavaScript (Frontend & Backend)</li>
+	<li>React (Frontend)</li>
+	<li>Rust</li>
+	<li>Azure</li>
+	<li>Bash/ZSH/Fish</li>
+	<li>git</li>
+	<li>Solidity (Quorum chain)</li>
 </ul>
 
 However I've also worked with, among other things, the following:
 <ul>
-	<li class="about-item">Java</li>
-	<li class="about-item">Groovy</li>
-	<li class="about-item">Python</li>
-	<li class="about-item">Angular</li>
-	<li class="about-item">AWS</li>
-	<li class="about-item">BonitaSoft (Business Process Management)</li>
-	<li class="about-item">UiPath (Robotic Process Automation)</li>
-	<li class="about-item">C</li>
-	<li class="about-item">C++</li>
-	<li class="about-item">SQL (MSSql, MySQL, SQLite)</li>
+	<li>Java</li>
+	<li>Groovy</li>
+	<li>Python</li>
+	<li>Angular</li>
+	<li>AWS</li>
+	<li>BonitaSoft (Business Process Management)</li>
+	<li>UiPath (Robotic Process Automation)</li>
+	<li>C</li>
+	<li>C++</li>
+	<li>SQL (MSSql, MySQL, SQLite)</li>
 </ul>
 
 <p>
 	This has involved me doing Robotic Process Automation, Business Process Management, and
-	optimisation of a two decade old C++ codebase. Perhaps I should just provide a link to my resume
-	here &hellip;
+	optimisation of a two decade old C++ codebase. To find out a bit more, you can download my resume
+	<a href="https://resume.pyxxilated.studio">here</a>.
 </p>
 
 In my own time, with the aforementioned projects, I've built up some skill with the following
 technologies:
+
 <ul>
-	<li class="about-item">C</li>
-	<li class="about-item">C++</li>
-	<li class="about-item">C#</li>
-	<li class="about-item">Debugging (gdb, lldb, rubber duck, print)</li>
-	<li class="about-item">HTML/CSS</li>
-	<li class="about-item">JavaScript/TypeScript</li>
-	<li class="about-item">Linux</li>
-	<li class="about-item">React</li>
-	<li class="about-item">Rust</li>
-	<li class="about-item">Valgrind</li>
-	<li class="about-item">And more &hellip;</li>
+	<li>C</li>
+	<li>C++</li>
+	<li>C#</li>
+	<li>Debugging (gdb, lldb, rubber duck, print)</li>
+	<li>HTML/CSS</li>
+	<li>JavaScript/TypeScript</li>
+	<li>Linux</li>
+	<li>React</li>
+	<li>Rust</li>
+	<li>Valgrind</li>
+	<li>And more &hellip;</li>
 </ul>
+
+<style>
+	img {
+		border-radius: 0.5em;
+		float: left;
+		margin-right: 1em;
+		width: 10em;
+		height: 10em;
+	}
+</style>

@@ -2,17 +2,19 @@
 	import '@picocss/pico';
 </script>
 
-<nav class="container-fluid">
-	<ul>
-		<li><a href="/"><strong>Pyxxilated Studios</strong></a></li>
-	</ul>
+<header class="container-fluid">
+	<nav>
+		<ul>
+			<li><a href="/"><strong>Pyxxilated Studios</strong></a></li>
+		</ul>
 
-	<ul>
-		<li><a href="/blog">Blog</a></li>
-		<li><a href="/projects">Projects</a></li>
-		<li><a href="/about">About</a></li>
-	</ul>
-</nav>
+		<ul>
+			<li><a href="/blog">Blog</a></li>
+			<li><a href="/projects">Projects</a></li>
+			<li><a href="/about">About</a></li>
+		</ul>
+	</nav>
+</header>
 
 <main class="container">
 	<slot />
@@ -46,7 +48,9 @@
 
 <style>
 	:global :root,
-	:global :root:not([data-theme='light']) {
+	:root:not([data-theme='dark']),
+	:global [data-theme='light'],
+	:global [data-theme='dark'] {
 		--color: #bbc6ce;
 		--primary: #ede8e8;
 		--h1-color: #ede8e8;
@@ -57,21 +61,18 @@
 		--h6-color: #ede8e8;
 		--primary-hover: #ff5d73;
 		--secondary: #ff5d73;
-		--primary-focus: inherit;
+		--primary-focus: #ff5d7370;
 		--background-color: #272635;
 	}
 
 	:global html {
 		background-color: var(--background-color);
+		cursor: unset;
 	}
 
 	:global .codehilite {
 		overflow-x: auto;
 		font-family: 'Courier New', Courier, monospace;
-	}
-
-	main {
-		margin-bottom: 3em;
 	}
 
 	a,
@@ -83,11 +84,11 @@
 		color: var(--primary-hover) !important;
 	}
 
+	a:focus {
+		background-color: inherit;
+	}
+
 	footer {
-		position: fixed;
-		bottom: 0;
-		background-color: var(--background-color);
-		align-items: center;
 		display: flex;
 		justify-content: center;
 	}

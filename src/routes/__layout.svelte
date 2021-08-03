@@ -1,20 +1,24 @@
-<header>
-	<nav>
-		<a href="/"><h2>Pyxxilated Studios</h2></a>
+<script>
+	import '@picocss/pico';
+</script>
 
-		<div>
-			<a href="/blog">Blog</a>
-			<a href="/projects">Projects</a>
-			<a href="/about">About</a>
-		</div>
-	</nav>
-</header>
+<nav class="container-fluid">
+	<ul>
+		<li><a href="/"><strong>Pyxxilated Studios</strong></a></li>
+	</ul>
 
-<main>
+	<ul>
+		<li><a href="/blog">Blog</a></li>
+		<li><a href="/projects">Projects</a></li>
+		<li><a href="/about">About</a></li>
+	</ul>
+</nav>
+
+<main class="container">
 	<slot />
 </main>
 
-<footer>
+<footer class="container-fluid">
 	<a href="https://www.github.com/pyxxil">
 		<svg aria-label="Github" xmlns="http://www.w3.org/2000/svg">
 			<path
@@ -41,21 +45,24 @@
 </footer>
 
 <style>
-	:root {
+	:global :root,
+	:global :root:not([data-theme='light']) {
+		--color: #bbc6ce;
 		--primary: #ede8e8;
-		--accent: #ff5d73;
-		--background: #272635;
+		--h1-color: #ede8e8;
+		--h2-color: #ede8e8;
+		--h3-color: #ede8e8;
+		--h4-color: #ede8e8;
+		--h5-color: #ede8e8;
+		--h6-color: #ede8e8;
+		--primary-hover: #ff5d73;
+		--secondary: #ff5d73;
+		--primary-focus: inherit;
+		--background-color: #272635;
 	}
 
 	:global html {
-		height: 100%;
-	}
-
-	:global body {
-		background-color: var(--background);
-		margin-top: 2.5em;
-		font: 16px 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
-			'Lucida Grande', sans-serif;
+		background-color: var(--background-color);
 	}
 
 	:global .codehilite {
@@ -71,74 +78,8 @@
 		height: 10em;
 	}
 
-	:global .blog-post {
+	main {
 		margin-bottom: 3em;
-	}
-
-	:global #svelte {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	header {
-		height: 4em;
-		background-color: var(--background);
-		top: 0;
-		width: 100%;
-		position: fixed;
-	}
-
-	nav {
-		align-items: center;
-		justify-content: space-between;
-		width: 100%;
-	}
-
-	nav a {
-		text-decoration: none;
-		margin: 0.5em 0.5em;
-	}
-
-	nav a,
-	main {
-		color: var(--primary);
-	}
-
-	header,
-	nav {
-		display: flex;
-	}
-
-	nav div {
-		display: flex;
-		list-style: outside none none;
-		margin: 0 0.5em;
-		padding: 0;
-		margin-block: 0;
-	}
-
-	nav div a {
-		margin: 0 0.25em;
-		color: var(--primary);
-	}
-
-	main {
-		min-width: 20em;
-		padding: 0 1em !important;
-		flex: 1 0 auto;
-		max-width: 50em;
-		margin-bottom: 1.5em;
-	}
-
-	:global main a {
-		color: var(--accent);
-		text-decoration: none;
-		transition-duration: 0.25s;
-	}
-
-	:global main a:hover {
-		text-decoration: underline;
 	}
 
 	a,
@@ -147,25 +88,19 @@
 	}
 
 	a:hover {
-		color: var(--accent) !important;
+		color: var(--primary-hover) !important;
 	}
 
 	footer {
-		display: flex;
-		justify-content: center;
 		position: fixed;
 		bottom: 0;
-		background-color: var(--background);
-		flex-direction: row !important;
+		background-color: var(--background-color);
 		align-items: center;
-		margin: 0;
-		padding: 0;
-		list-style: outside none none;
-		width: 100%;
+		display: flex;
+		justify-content: center;
 	}
 
 	footer a {
-		list-style: none;
 		padding: 0.5em;
 	}
 
@@ -181,7 +116,7 @@
 	}
 
 	footer svg:hover {
-		fill: var(--accent) !important;
+		fill: var(--primary-hover) !important;
 		transform: scale(1.25);
 	}
 </style>

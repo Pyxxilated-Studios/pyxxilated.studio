@@ -68,8 +68,6 @@
 	<link rel="canonical" href="https://www.pyxxilated.studio/projects" />
 </svelte:head>
 
-<title>Projects</title>
-
 <h1 class="title">Projects</h1>
 
 <p>
@@ -84,43 +82,20 @@
 </p>
 
 {#each projects as project}
-	<div class="project-header">
-		<a class="project-title" href={project.link}>
-			<h2>{project.title}</h2>
-		</a>
-
-		<div class="project-source">
+	<details>
+		<summary>
+			<a href={project.link}>
+				<strong>{project.title}</strong>
+			</a>
 			(<a href={project.source}>source</a>)
-		</div>
-	</div>
+		</summary>
 
-	{#if Array.isArray(project.description)}
-		{#each project.description as paragraph}
-			<p>{paragraph}</p>
-		{/each}
-	{:else}
-		<p>{project.description}</p>
-	{/if}
+		{#if Array.isArray(project.description)}
+			{#each project.description as paragraph}
+				<p>{paragraph}</p>
+			{/each}
+		{:else}
+			<p>{project.description}</p>
+		{/if}
+	</details>
 {/each}
-
-<style>
-	.project-header {
-		align-items: baseline;
-		display: flex;
-		flex-direction: row;
-	}
-
-	.project-title {
-		flex: 0 0 auto;
-	}
-
-	.project-source {
-		margin-left: 1em;
-		flex: 1 0 auto;
-	}
-
-	a:hover {
-		color: var(--primary);
-		text-decoration: none;
-	}
-</style>

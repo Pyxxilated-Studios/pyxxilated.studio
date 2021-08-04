@@ -74,8 +74,8 @@ However I've also worked with, among other things, the following:
 
 <p>
 	This has involved me doing Robotic Process Automation, Business Process Management, and
-	optimisation of a two decade old C++ codebase. To find out a bit more, you can download my resume
-	<a href="https://resume.pyxxilated.studio">here</a>.
+	optimisation of a two decade old C++ codebase. Feel free to check out my
+	<a href="https://resume.pyxxilated.studio">resume</a> if you want to know a bit more.
 </p>
 
 In my own time, with the aforementioned projects, I've built up some skill with the following

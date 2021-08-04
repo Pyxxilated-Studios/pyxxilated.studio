@@ -51,18 +51,18 @@
 	:root:not([data-theme='dark']),
 	:global [data-theme='light'],
 	:global [data-theme='dark'] {
-		--color: #bbc6ce;
-		--primary: #ede8e8;
-		--h1-color: #ede8e8;
-		--h2-color: #ede8e8;
-		--h3-color: #ede8e8;
-		--h4-color: #ede8e8;
-		--h5-color: #ede8e8;
-		--h6-color: #ede8e8;
-		--primary-hover: #ff5d73;
-		--secondary: #ff5d73;
+		--color: #ecf0f1;
+		--primary: #ffcdb2;
+		--h1-color: #ffcdb2;
+		--h2-color: #ffcdb2;
+		--h3-color: #ffcdb2;
+		--h4-color: #ffcdb2;
+		--h5-color: #ffcdb2;
+		--h6-color: #ffcdb2;
+		--primary-hover: #b5838d;
+		--secondary: #b5838d;
 		--primary-focus: #ff5d7370;
-		--background-color: #272635;
+		--background-color: #29335c;
 	}
 
 	:global html {
@@ -80,8 +80,9 @@
 		transition-duration: 0.25s;
 	}
 
-	a:hover {
+	:global a:hover {
 		color: var(--primary-hover) !important;
+		text-decoration: none;
 	}
 
 	a:focus {

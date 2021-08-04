@@ -87,6 +87,7 @@
 
 	a:focus {
 		background-color: inherit;
+		color: var(--primary-hover) !important;
 	}
 
 	footer {

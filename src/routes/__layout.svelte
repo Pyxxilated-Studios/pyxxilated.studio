@@ -85,9 +85,8 @@
 		text-decoration: none;
 	}
 
-	a:focus {
-		background-color: inherit;
-		color: var(--primary-hover) !important;
+	:global a:focus {
+		background-color: unset;
 	}
 
 	footer {

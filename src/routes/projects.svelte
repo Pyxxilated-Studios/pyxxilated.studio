@@ -68,7 +68,7 @@
 	<link rel="canonical" href="https://www.pyxxilated.studio/projects" />
 </svelte:head>
 
-<h1 class="title">Projects</h1>
+<h1>Projects</h1>
 
 <p>
 	I often have a few projects being worked on at any one time, and several of them are web-based.

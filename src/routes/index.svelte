@@ -9,7 +9,7 @@
 	<link rel="canonical" href="https://www.pyxxilated.studio" />
 </svelte:head>
 
-<h1 class="title">Welcome to <b>Pyxxilated Studios</b></h1>
+<h1>Welcome to <b>Pyxxilated Studios</b></h1>
 
 <div>
 	<h2>Hi, my name is Josh (aka Pyxxil)</h2>

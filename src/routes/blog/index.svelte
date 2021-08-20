@@ -6,7 +6,7 @@
 		content="This is where I keep my thoughts about a whole bunch of stuff, sometimes it's useful information, but I make no promises"
 	/>
 
-	<link rel="canonical" href="https://www.pyxxilated.studio/blog" />
+	<link rel="canonical" href="https://www.pyxxilated.studio/blog/" />
 </svelte:head>
 
 <h1 class="title">Blog</h1>

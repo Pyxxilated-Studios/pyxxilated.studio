@@ -65,7 +65,7 @@
 		content="This is where I house a whole bunch of links to my own personal projects, some hosted here, or others just links to code or elsewhere"
 	/>
 
-	<link rel="canonical" href="https://www.pyxxilated.studio/projects" />
+	<link rel="canonical" href="https://www.pyxxilated.studio/projects/" />
 </svelte:head>
 
 <h1>Projects</h1>

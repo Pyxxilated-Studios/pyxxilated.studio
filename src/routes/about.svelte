@@ -6,7 +6,7 @@
 		content="This is where you can find out all there is to know about my experience, both professionally and personally through projects"
 	/>
 
-	<link rel="canonical" href="https://www.pyxxilated.studio/about" />
+	<link rel="canonical" href="https://www.pyxxilated.studio/about/" />
 </svelte:head>
 
 <h1>About</h1>

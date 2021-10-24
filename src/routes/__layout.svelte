@@ -62,7 +62,7 @@
 		--primary-hover: #b5838d;
 		--secondary: #b5838d;
 		--primary-focus: #ff5d7370;
-		--background-color: #29335c;
+		--background-color: #112;
 	}
 
 	:global html {
@@ -73,6 +73,10 @@
 	:global .codehilite {
 		overflow-x: auto;
 		font-family: 'Courier New', Courier, monospace;
+	}
+
+	:global ul li {
+		list-style: circle inside;
 	}
 
 	a,

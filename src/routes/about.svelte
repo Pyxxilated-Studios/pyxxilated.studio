@@ -14,7 +14,9 @@
 <img
 	src="/Rilee.webp"
 	alt="Rilee"
-	class="rounded-md w-80 sm:float-left sm:mr-5 mx-auto sm:mb-0 mb-4"
+	width="320px"
+	height="320px"
+	class="rounded-md sm:float-left sm:mr-5 mx-auto sm:mb-0 mb-4"
 />
 
 <p class="text-white mb-4">

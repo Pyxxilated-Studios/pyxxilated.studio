@@ -11,7 +11,7 @@
 
 <h1 class="text-4xl my-4">About</h1>
 
-<img src="/Rilee.webp" alt="Rilee" class="rounded-md w-40 float-left mr-5" />
+<img src="/Rilee.webp" alt="Rilee" class="rounded-md w-80 float-left mr-5" />
 
 <p class="text-white mb-4">
 	As much as I would like to claim that the picture on the left is of me, I cannot. This is my dog

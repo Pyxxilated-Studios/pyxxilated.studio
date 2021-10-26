@@ -44,7 +44,7 @@
 	<link rel="canonical" href="https://www.pyxxilated.studio" />
 </svelte:head>
 
-<h1 class="text-4xl my-4">Welcome to <b>Pyxxilated Studios</b></h1>
+<h1 class="text-4xl my-4">Welcome to Pyxxilated Studios</h1>
 
 <h2 class="text-2xl my-4">Hi, my name is Josh (aka Pyxxil)</h2>
 

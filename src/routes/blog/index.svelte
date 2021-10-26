@@ -9,9 +9,9 @@
 	<link rel="canonical" href="https://www.pyxxilated.studio/blog/" />
 </svelte:head>
 
-<h1 class="title">Blog</h1>
+<h1 class="text-4xl my-4">Blog</h1>
 
-<p>
+<p class="text-white mb-4">
 	This is my blog, where I keep some thoughts, and also some project related writeups (hopefully),
 	and the occassional tutorial on certain topics. While I don't promise that any of it will be
 	useful, I do hope that at least one person will learn something amongst all of the seemingly

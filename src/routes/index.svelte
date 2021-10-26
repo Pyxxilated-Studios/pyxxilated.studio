@@ -52,5 +52,5 @@
 	<h3 class="text-xl my-4 font-bold">
 		{reason.reason}
 	</h3>
-	<p class="text-white">{reason.justification}</p>
+	<p class="text-white mb-4">{reason.justification}</p>
 {/each}

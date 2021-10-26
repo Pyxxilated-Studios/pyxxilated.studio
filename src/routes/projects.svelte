@@ -68,7 +68,7 @@
 	<link rel="canonical" href="https://www.pyxxilated.studio/projects/" />
 </svelte:head>
 
-<h1>Projects</h1>
+<h1 class="font-bold text-4xl my-4">Projects</h1>
 
 <p>
 	I often have a few projects being worked on at any one time, and several of them are web-based.
@@ -82,20 +82,34 @@
 </p>
 
 {#each projects as project}
-	<details>
-		<summary>
-			<a href={project.link}>
-				<strong>{project.title}</strong>
-			</a>
-			(<a href={project.source}>source</a>)
+	<details class="my-4 border-b">
+		<summary class="flex items-center">
+			<h2 class="text-xl my-2 font-bold">
+				{project.title}
+			</h2>
+
+			<button class="ml-auto">
+				<svg
+					class="transition-all duration-300 fill-current opacity-75 w-4 h-4 -mr-1"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 20 20"
+				>
+					<path
+						d="M12.95 10.707l.707-.707L8 4.343 6.586 5.757 10.828 10l-4.242 4.243L8 15.657l4.95-4.95z"
+					/>
+				</svg>
+			</button>
 		</summary>
+
+		<a href={project.source} class="text-sm font-bold hover:text-secondary mr-2">Source</a>
+		<a href={project.link} class="text-sm font-bold hover:text-secondary">Link</a>
 
 		{#if Array.isArray(project.description)}
 			{#each project.description as paragraph}
-				<p>{paragraph}</p>
+				<p class="mt-2 pb-2">{paragraph}</p>
 			{/each}
 		{:else}
-			<p>{project.description}</p>
+			<p class="mt-2 pb-2">{project.description}</p>
 		{/if}
 	</details>
 {/each}

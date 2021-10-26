@@ -9,24 +9,42 @@
 	<link rel="canonical" href="https://www.pyxxilated.studio/about/" />
 </svelte:head>
 
-<h1>About</h1>
+<h1 class="text-4xl my-4">About</h1>
 
-<img src="/Rilee.webp" alt="Rilee" />
+<img src="/Rilee.webp" alt="Rilee" class="rounded-md w-40 float-left mr-5" />
 
-<p>
+<p class="text-white mb-4">
 	As much as I would like to claim that the picture on the left is of me, I cannot. This is my dog
 	Rilee, and she helps to keep me somewhat sane during pretty much anything.
 </p>
 
-<p>
+<p class="text-white mb-4">
 	There's not much to say about me other than what can be found around, on my
-	<a href="/blog">Blog</a>, <a href="https://www.github.com/pyxxil">GitHub</a>/
-	<a href="https://www.gitlab.com/pyxxil">Gitlab</a>, or
-	<a href="https://www.linkedin.com/in/pyxxil">LinkedIn</a>. I'm just someone who enjoys solving
-	problems, and programming just so happens to be the tool with which I do so.
+	<a href="/blog" class="text-foreground hover:text-secondary transition-color duration-300">
+		Blog
+	</a>,
+	<a
+		href="https://www.github.com/pyxxil"
+		class="text-foreground hover:text-secondary transition-color duration-300"
+	>
+		GitHub
+	</a>/
+	<a
+		href="https://www.gitlab.com/pyxxil"
+		class="text-foreground hover:text-secondary transition-color duration-300"
+	>
+		Gitlab
+	</a>, or
+	<a
+		href="https://www.linkedin.com/in/pyxxil"
+		class="text-foreground hover:text-secondary transition-color duration-300"
+	>
+		LinkedIn
+	</a>. I'm just someone who enjoys solving problems, and programming just so happens to be the tool
+	with which I do so.
 </p>
 
-<p>
+<p class="text-white mb-4">
 	Generally, I haven't stuck to one singular passion within programming. I'll often swap around what
 	I like to do, which may have lead me down to almost being a "Jack of All Trades, Master of None",
 	however I like to think most of the stuff I have done has all lead to making me a better developer
@@ -34,7 +52,7 @@
 	you can find amongst my <a href="/projects">Projects</a> page on this website.
 </p>
 
-<p>
+<p class="text-white mb-4">
 	While I've spent most of my career as a Fullstack Software Developer, it's not exactly my passion.
 	My passion mainly lies in optimisation, and writing efficient code. It just so happens to be
 	easiest to find a job as a web developer, and working on that kind of stuff in my own time.
@@ -42,13 +60,15 @@
 	uses a systems programming language, even better).
 </p>
 
-<h2>Experience</h2>
+<h2 class="text-2xl my-4">Experience</h2>
 
-I'm currently employed as a Software Engineer at P^werFinance, a FinTech startup in Auckland. Our
-tech stack is ever changing as we figure out the best way to do things, but in general it involves
-the following:
+<p class="text-white mb-4">
+	I'm currently employed as a Software Engineer at P^werFinance, a FinTech startup in Auckland. Our
+	tech stack is ever changing as we figure out the best way to do things, but in general it involves
+	the following:
+</p>
 
-<ul>
+<ul class="list-disc text-white mb-4 ml-8">
 	<li>TypeScript/JavaScript (Frontend & Backend)</li>
 	<li>React (Frontend)</li>
 	<li>Rust</li>
@@ -58,8 +78,8 @@ the following:
 	<li>Solidity (Quorum chain)</li>
 </ul>
 
-However I've also worked with, among other things, the following:
-<ul>
+<p class="text-white mb-4">However I've also worked with, among other things, the following:</p>
+<ul class="list-disc text-white mb-4 ml-8">
 	<li>Java</li>
 	<li>Groovy</li>
 	<li>Python</li>
@@ -72,16 +92,23 @@ However I've also worked with, among other things, the following:
 	<li>SQL (MSSql, MySQL, SQLite)</li>
 </ul>
 
-<p>
+<p class="text-white mb-4">
 	This has involved me doing Robotic Process Automation, Business Process Management, and
 	optimisation of a two decade old C++ codebase. Feel free to check out my
-	<a href="https://resume.pyxxilated.studio">resume</a> if you want to know a bit more.
+	<a
+		href="https://resume.pyxxilated.studio"
+		class="text-foreground hover:text-secondary transition-color duration-300"
+	>
+		resume
+	</a> if you want to know a bit more.
 </p>
 
-In my own time, with the aforementioned projects, I've built up some skill with the following
-technologies:
+<p class="text-white mb-4">
+	In my own time, with the aforementioned projects, I've built up some skill with the following
+	technologies:
+</p>
 
-<ul>
+<ul class="list-disc text-white mb-4 ml-8">
 	<li>C</li>
 	<li>C++</li>
 	<li>C#</li>
@@ -94,13 +121,3 @@ technologies:
 	<li>Valgrind</li>
 	<li>And more &hellip;</li>
 </ul>
-
-<style>
-	img {
-		border-radius: 0.5em;
-		float: left;
-		margin-right: 1em;
-		width: 10em;
-		height: 10em;
-	}
-</style>

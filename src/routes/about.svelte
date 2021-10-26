@@ -11,11 +11,15 @@
 
 <h1 class="text-4xl my-4">About</h1>
 
-<img src="/Rilee.webp" alt="Rilee" class="rounded-md w-80 float-left mr-5" />
+<img
+	src="/Rilee.webp"
+	alt="Rilee"
+	class="rounded-md w-80 sm:float-left sm:mr-5 mx-auto sm:mb-0 mb-4"
+/>
 
 <p class="text-white mb-4">
-	As much as I would like to claim that the picture on the left is of me, I cannot. This is my dog
-	Rilee, and she helps to keep me somewhat sane during pretty much anything.
+	As much as I would like to claim that this picture is of me, I cannot. This is my dog Rilee, and
+	she helps to keep me somewhat sane during pretty much anything.
 </p>
 
 <p class="text-white mb-4">

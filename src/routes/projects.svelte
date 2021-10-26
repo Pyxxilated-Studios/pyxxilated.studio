@@ -70,12 +70,12 @@
 
 <h1 class="text-4xl my-4">Projects</h1>
 
-<p>
+<p class="text-white mb-4">
 	I often have a few projects being worked on at any one time, and several of them are web-based.
 	This website has allowed me to host many of these rather simply, and you can find several of these
 	below.
 </p>
-<p>
+<p class="text-white mb-4">
 	Some of the projects below are not web based, but hopefully there's enough information on them
 	either below or on their project page. Feel free to peruse my Github to see what I've been up to
 	lately.
@@ -106,10 +106,10 @@
 
 		{#if Array.isArray(project.description)}
 			{#each project.description as paragraph}
-				<p class="mt-2 pb-2">{paragraph}</p>
+				<p class="text-white mt-2 pb-2">{paragraph}</p>
 			{/each}
 		{:else}
-			<p class="mt-2 pb-2">{project.description}</p>
+			<p class="text-white mt-2 pb-2">{project.description}</p>
 		{/if}
 	</details>
 {/each}

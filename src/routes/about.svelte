@@ -68,7 +68,7 @@
 	the following:
 </p>
 
-<ul class="list-disc text-white mb-4 ml-8">
+<ul class="list-circle list-inside text-white mb-4 ml-4">
 	<li>TypeScript/JavaScript (Frontend & Backend)</li>
 	<li>React (Frontend)</li>
 	<li>Rust</li>
@@ -79,7 +79,7 @@
 </ul>
 
 <p class="text-white mb-4">However I've also worked with, among other things, the following:</p>
-<ul class="list-disc text-white mb-4 ml-8">
+<ul class="list-circle list-inside text-white mb-4 ml-4">
 	<li>Java</li>
 	<li>Groovy</li>
 	<li>Python</li>
@@ -108,7 +108,7 @@
 	technologies:
 </p>
 
-<ul class="list-disc text-white mb-4 ml-8">
+<ul class="list-circle list-inside text-white mb-4 ml-4">
 	<li>C</li>
 	<li>C++</li>
 	<li>C#</li>

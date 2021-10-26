@@ -20,6 +20,7 @@ module.exports = {
 				white: '#ecf0f1'
 			}
 		},
+		listStyleType: { circle: 'circle' },
 		stroke: (theme) => ({
 			foreground: theme('colors.foreground'),
 			background: theme('colors.foreground'),

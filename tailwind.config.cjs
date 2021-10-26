@@ -18,7 +18,45 @@ module.exports = {
 				background: '#112',
 				secondary: '#b5838d',
 				white: '#ecf0f1'
-			}
+			},
+			typography: (theme) => ({
+				DEFAULT: {
+					css: {
+						color: theme('colors.white'),
+						maxWidth: null,
+						fontFamily: theme('font-sans'),
+
+						h1: {
+							color: theme('colors.foreground'),
+							fontSize: theme('text-4xl')
+						},
+
+						h2: {
+							color: theme('colors.foreground'),
+							fontSize: theme('text-2xl'),
+							margin: theme('my-4')
+						},
+
+						h3: {
+							color: theme('colors.foreground'),
+							fontSize: theme('text-xl'),
+							margin: theme('mb-4')
+						},
+
+						p: {
+							margin: theme('mb-4')
+						},
+
+						a: {
+							color: theme('colors.foreground'),
+							textDecoration: 'none',
+							'&:hover': {
+								color: theme('colors.secondary')
+							}
+						}
+					}
+				}
+			})
 		},
 		listStyleType: { circle: 'circle' },
 		stroke: (theme) => ({
@@ -28,5 +66,5 @@ module.exports = {
 		})
 	},
 	variants: {},
-	plugins: []
+	plugins: [require('@tailwindcss/typography')]
 };

@@ -1,43 +1,23 @@
-<header class="w-full mx-auto sticky top-0 bg-background p-4 text-xl text-foreground ">
+<header class="z-50 w-full mx-auto sticky top-0 bg-background p-4 text-xl text-foreground ">
 	<nav class="flex items-center justify-between md:mx-3">
-		<a
-			href="/"
-			class="text-2xl font-bold hover:text-secondary transition-colors duration-300 motion-reduce:transition-none"
-		>
-			Pyxxilated Studios
-		</a>
+		<a href="/" class="text-2xl font-bold transition-colors duration-300"> Pyxxilated Studios </a>
 
 		<div class="flex flex-row-reverse space-x-4 space-x-reverse">
-			<a
-				href="/about/"
-				class="hover:text-secondary transition-colors duration-300 motion-reduce:transition-none"
-			>
-				About
-			</a>
-			<a
-				href="/blog/"
-				class="hover:text-secondary transition-colors duration-300 motion-reduce:transition-none"
-			>
-				Blog
-			</a>
-			<a
-				href="/projects/"
-				class="hover:text-secondary transition-colors duration-300 motion-reduce:transition-none"
-			>
-				Projects
-			</a>
+			<a href="/about/" class="transition-colors duration-300"> About </a>
+			<a href="/blog/" class="transition-colors duration-300"> Blog </a>
+			<a href="/projects/" class="transition-colors duration-300"> Projects </a>
 		</div>
 	</nav>
 </header>
 
-<main class="container mx-auto pb-16 px-6">
+<main class="w-full container mx-auto pb-16 px-6">
 	<slot />
 </main>
 
 <footer
-	class="w-full mx-auto fixed bottom-0 bg-background flex flex-row justify-center space-x-4 p-4"
+	class="z-50 w-full mx-auto fixed bottom-0 bg-background flex flex-row justify-center space-x-4 p-4"
 >
-	<a href="https://www.github.com/pyxxil" class="hover:text-secondary">
+	<a href="https://www.github.com/pyxxil">
 		<svg
 			aria-label="Github"
 			xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +29,7 @@
 		</svg>
 	</a>
 
-	<a href="https://www.gitlab.com/pyxxil" class="hover:text-secondary">
+	<a href="https://www.gitlab.com/pyxxil">
 		<svg
 			aria-label="Gitlab"
 			xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +41,7 @@
 		</svg>
 	</a>
 
-	<a href="https://www.linkedin.com/in/pyxxil" class="hover:text-secondary">
+	<a href="https://www.linkedin.com/in/pyxxil">
 		<svg
 			aria-label="LinkedIn"
 			xmlns="http://www.w3.org/2000/svg"
@@ -88,10 +68,10 @@
 	}
 
 	details[open] summary ~ * {
-		animation: sweep 0.3s ease-in-out;
+		animation: fade 0.3s ease-in-out;
 	}
 
-	@keyframes sweep {
+	@keyframes fade {
 		0% {
 			opacity: 0;
 		}

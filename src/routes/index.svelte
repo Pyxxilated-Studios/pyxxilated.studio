@@ -44,13 +44,13 @@
 	<link rel="canonical" href="https://www.pyxxilated.studio" />
 </svelte:head>
 
-<h1 class="text-4xl my-4">Welcome to Pyxxilated Studios</h1>
+<h1>Welcome to Pyxxilated Studios</h1>
 
-<h2 class="text-2xl my-4">Hi, my name is Josh (aka Pyxxil)</h2>
+<h2>Hi, my name is Josh (aka Pyxxil)</h2>
 
 {#each reasons as reason}
-	<h3 class="text-xl my-4 font-bold">
+	<h3 class="font-bold">
 		{reason.reason}
 	</h3>
-	<p class="text-white mb-4">{reason.justification}</p>
+	<p>{reason.justification}</p>
 {/each}

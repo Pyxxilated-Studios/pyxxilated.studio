@@ -82,11 +82,11 @@
 </p>
 
 {#each projects as project}
-	<details class="my-4 border-b">
+	<details class="border-b">
 		<summary class="flex items-center">
-			<h2 class="text-xl my-2 font-bold">
+			<h3 class="font-bold">
 				{project.title}
-			</h2>
+			</h3>
 
 			<button class="ml-auto">
 				<svg
@@ -101,15 +101,16 @@
 			</button>
 		</summary>
 
-		<a href={project.source} class="text-sm font-bold hover:text-secondary mr-2">Source</a>
-		<a href={project.link} class="text-sm font-bold hover:text-secondary">Link</a>
+		<a href={project.source} class="text-sm font-bold mr-2 transition-colors duration-300">Source</a
+		>
+		<a href={project.link} class="text-sm font-bold transition-colors duration-300">Link</a>
 
 		{#if Array.isArray(project.description)}
 			{#each project.description as paragraph}
-				<p class="text-white mt-2 pb-2">{paragraph}</p>
+				<p class="mt-2 pb-2">{paragraph}</p>
 			{/each}
 		{:else}
-			<p class="text-white mt-2 pb-2">{project.description}</p>
+			<p class="mt-2 pb-2">{project.description}</p>
 		{/if}
 	</details>
 {/each}

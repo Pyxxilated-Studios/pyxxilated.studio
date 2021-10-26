@@ -9,48 +9,32 @@
 	<link rel="canonical" href="https://www.pyxxilated.studio/about/" />
 </svelte:head>
 
-<h1 class="text-4xl my-4">About</h1>
+<h1>About</h1>
 
 <img
 	src="/Rilee.webp"
 	alt="Rilee"
 	width="320px"
 	height="320px"
-	class="rounded-md sm:float-left sm:mr-5 mx-auto sm:mb-0 mb-4"
+	class="rounded-md sm:float-left  mx-auto sm:mr-5 md:mr-8 mb-4"
 />
 
-<p class="text-white mb-4">
+<p>
 	As much as I would like to claim that this picture is of me, I cannot. This is my dog Rilee, and
 	she helps to keep me somewhat sane during pretty much anything.
 </p>
 
-<p class="text-white mb-4">
+<p>
 	There's not much to say about me other than what can be found around, on my
-	<a href="/blog" class="text-foreground hover:text-secondary transition-color duration-300">
-		Blog
-	</a>,
-	<a
-		href="https://www.github.com/pyxxil"
-		class="text-foreground hover:text-secondary transition-color duration-300"
-	>
-		GitHub
-	</a>/
-	<a
-		href="https://www.gitlab.com/pyxxil"
-		class="text-foreground hover:text-secondary transition-color duration-300"
-	>
-		Gitlab
-	</a>, or
-	<a
-		href="https://www.linkedin.com/in/pyxxil"
-		class="text-foreground hover:text-secondary transition-color duration-300"
-	>
-		LinkedIn
-	</a>. I'm just someone who enjoys solving problems, and programming just so happens to be the tool
-	with which I do so.
+	<a href="/blog" class="transition-color duration-300"> Blog </a>,
+	<a href="https://www.github.com/pyxxil" class="transition-color duration-300"> GitHub </a>/
+	<a href="https://www.gitlab.com/pyxxil" class="transition-color duration-300"> Gitlab </a>, or
+	<a href="https://www.linkedin.com/in/pyxxil" class="transition-color duration-300"> LinkedIn </a>.
+	I'm just someone who enjoys solving problems, and programming just so happens to be the tool with
+	which I do so.
 </p>
 
-<p class="text-white mb-4">
+<p>
 	Generally, I haven't stuck to one singular passion within programming. I'll often swap around what
 	I like to do, which may have lead me down to almost being a "Jack of All Trades, Master of None",
 	however I like to think most of the stuff I have done has all lead to making me a better developer
@@ -58,7 +42,7 @@
 	you can find amongst my <a href="/projects">Projects</a> page on this website.
 </p>
 
-<p class="text-white mb-4">
+<p>
 	While I've spent most of my career as a Fullstack Software Developer, it's not exactly my passion.
 	My passion mainly lies in optimisation, and writing efficient code. It just so happens to be
 	easiest to find a job as a web developer, and working on that kind of stuff in my own time.
@@ -66,9 +50,9 @@
 	uses a systems programming language, even better).
 </p>
 
-<h2 class="text-2xl my-4">Experience</h2>
+<h2>Experience</h2>
 
-<p class="text-white mb-4">
+<p>
 	I'm currently employed as a Software Engineer at P^werFinance, a FinTech startup in Auckland. Our
 	tech stack is ever changing as we figure out the best way to do things, but in general it involves
 	the following:
@@ -84,7 +68,7 @@
 	<li>Solidity (Quorum chain)</li>
 </ul>
 
-<p class="text-white mb-4">However I've also worked with, among other things, the following:</p>
+<p>However I've also worked with, among other things, the following:</p>
 <ul class="list-circle list-inside text-white mb-4 ml-4">
 	<li>Java</li>
 	<li>Groovy</li>
@@ -98,7 +82,7 @@
 	<li>SQL (MSSql, MySQL, SQLite)</li>
 </ul>
 
-<p class="text-white mb-4">
+<p>
 	This has involved me doing Robotic Process Automation, Business Process Management, and
 	optimisation of a two decade old C++ codebase. Feel free to check out my
 	<a
@@ -109,7 +93,7 @@
 	</a> if you want to know a bit more.
 </p>
 
-<p class="text-white mb-4">
+<p>
 	In my own time, with the aforementioned projects, I've built up some skill with the following
 	technologies:
 </p>

@@ -2,7 +2,7 @@
 	<nav class="flex items-center justify-between md:mx-3">
 		<a href="/" class="text-2xl font-bold transition-colors duration-300"> Pyxxilated Studios </a>
 
-		<div class="flex flex-row-reverse space-x-4 space-x-reverse">
+		<div class="flex flex-row-reverse space-x-4 space-x-reverse text-base sm:text-xl">
 			<a href="/about/" class="transition-colors duration-300"> About </a>
 			<a href="/blog/" class="transition-colors duration-300"> Blog </a>
 			<a href="/projects/" class="transition-colors duration-300"> Projects </a>

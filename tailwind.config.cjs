@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
 	mode: 'jit',
 	future: {
@@ -19,12 +21,14 @@ module.exports = {
 				secondary: '#b5838d',
 				white: '#ecf0f1'
 			},
+			fontFamily: {
+				sans: ['Helvetica', ...defaultTheme.fontFamily.sans]
+			},
 			typography: (theme) => ({
 				DEFAULT: {
 					css: {
 						color: theme('colors.white'),
 						maxWidth: null,
-						fontFamily: theme('font-sans'),
 
 						h1: {
 							color: theme('colors.foreground'),

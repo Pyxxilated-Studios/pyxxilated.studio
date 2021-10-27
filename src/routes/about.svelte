@@ -16,7 +16,7 @@
 	alt="Rilee"
 	width="320px"
 	height="320px"
-	class="rounded-md sm:float-left  mx-auto sm:mr-5 md:mr-8 mb-4"
+	class="rounded-md sm:float-left mx-auto sm:mr-5 md:mr-8 mb-4"
 />
 
 <p>
@@ -39,7 +39,8 @@
 	I like to do, which may have lead me down to almost being a "Jack of All Trades, Master of None",
 	however I like to think most of the stuff I have done has all lead to making me a better developer
 	in some way. I've spent the past few years working on several personal projects, a few of which
-	you can find amongst my <a href="/projects">Projects</a> page on this website.
+	you can find amongst my <a href="/projects" class="transition-color duration-300">Projects</a> page
+	on this website.
 </p>
 
 <p>
@@ -85,12 +86,8 @@
 <p>
 	This has involved me doing Robotic Process Automation, Business Process Management, and
 	optimisation of a two decade old C++ codebase. Feel free to check out my
-	<a
-		href="https://resume.pyxxilated.studio"
-		class="text-foreground hover:text-secondary transition-color duration-300"
-	>
-		resume
-	</a> if you want to know a bit more.
+	<a href="https://resume.pyxxilated.studio" class="transition-color duration-300"> resume </a> if you
+	want to know a bit more.
 </p>
 
 <p>

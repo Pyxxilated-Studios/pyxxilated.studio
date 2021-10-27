@@ -63,10 +63,15 @@ module.exports = {
 			})
 		},
 		listStyleType: { circle: 'circle' },
+		fill: (theme) => ({
+			foreground: theme('colors.foreground'),
+			background: theme('colors.background'),
+			secondary: theme('colors.secondary')
+		}),
 		stroke: (theme) => ({
 			foreground: theme('colors.foreground'),
-			background: theme('colors.foreground'),
-			secondary: theme('colors.foreground')
+			background: theme('colors.background'),
+			secondary: theme('colors.secondary')
 		})
 	},
 	variants: {},

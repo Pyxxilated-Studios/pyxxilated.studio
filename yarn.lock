@@ -644,7 +644,7 @@ cssnano@^5.0.8:
     lilconfig "^2.0.3"
     yaml "^1.10.2"
 
-csso@^4.2.0:
+csso@^4.0.2, csso@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/csso/-/csso-4.2.0.tgz#ea3a561346e8dc9f546d6febedd50187cf389529"
   integrity sha512-wvlcdIbf6pwKEk7vHj8/Bkc0B4ylXZruLvOgs9doS5eOsOpuodOV2zJChSpkp+pRpYQLQMeF04nr3Z68Sta9jA==
@@ -1682,6 +1682,13 @@ postcss-convert-values@^5.0.1:
   integrity sha512-C3zR1Do2BkKkCgC0g3sF8TS0koF2G+mN8xxayZx3f10cIRmTaAnpgpRQZjNekTZxM2ciSPoh2IWJm0VZx8NoQg==
   dependencies:
     postcss-value-parser "^4.1.0"
+
+postcss-csso@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-csso/-/postcss-csso-5.0.1.tgz#023175280a4a8ff916d7763d3543c1fe55ed67a8"
+  integrity sha512-TI99uhhJK2L5IQXPuyNcT3XV9bffSvDPmNpHi5f+tBq+R/01ucgLsUCcTDcVNqKMxO28klI6NwgjrHrM99x9KA==
+  dependencies:
+    csso "^4.0.2"
 
 postcss-discard-comments@^5.0.1:
   version "5.0.1"

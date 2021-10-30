@@ -2,6 +2,7 @@ const tailwindcss = require('tailwindcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const purgecss = require('@fullhuman/postcss-purgecss');
+const csso = require('postcss-csso');
 
 module.exports = {
 	plugins: [
@@ -17,6 +18,7 @@ module.exports = {
 			safelist: {
 				greedy: [/^svelte-announcer/]
 			}
-		})
+		}),
+		csso()
 	]
 };

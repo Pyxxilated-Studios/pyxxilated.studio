@@ -82,9 +82,9 @@
 </p>
 
 {#each projects as project}
-	<details class="border-b my-6">
+	<details class="border-b my-8">
 		<summary class="flex items-center">
-			<h3 class="font-bold !m-0">
+			<h3 class="font-bold" style="margin: 0">
 				{project.title}
 			</h3>
 

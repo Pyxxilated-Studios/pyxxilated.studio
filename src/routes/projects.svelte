@@ -82,15 +82,15 @@
 </p>
 
 {#each projects as project}
-	<details class="border-b">
+	<details class="border-b my-6">
 		<summary class="flex items-center">
-			<h3 class="font-bold">
+			<h3 class="font-bold !m-0">
 				{project.title}
 			</h3>
 
-			<button class="ml-auto">
+			<button class="ml-auto align-middle">
 				<svg
-					class="transition-all duration-300 fill-current opacity-75 w-4 h-4 -mr-1"
+					class="transition-all duration-300 fill-current opacity-75 w-4 h-4 -mr-1 stroke-foreground fill-foreground"
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 20 20"
 				>

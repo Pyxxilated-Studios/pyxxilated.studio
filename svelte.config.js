@@ -1,5 +1,6 @@
 import preprocess from 'svelte-preprocess';
 import static_adapater from '@sveltejs/adapter-static';
+import { uglify } from 'rollup-plugin-uglify';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -10,7 +11,14 @@ const config = {
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
-		adapter: static_adapater()
+		adapter: static_adapater(),
+		vite: {
+			build: {
+				rollupOptions: {
+					plugins: [uglify()]
+				}
+			}
+		}
 	}
 };
 

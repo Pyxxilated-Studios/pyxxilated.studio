@@ -11,12 +11,14 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^4.0.3",
 		"@sveltejs/adapter-static": "^1.0.0-next.13",
 		"@sveltejs/kit": "next",
 		"@tailwindcss/typography": "^0.4.1",
 		"@typescript-eslint/eslint-plugin": "^5.1.0",
 		"@typescript-eslint/parser": "^5.1.0",
 		"autoprefixer": "^10.3.7",
+		"cssnano": "^5.0.8",
 		"eslint": "^8.1.0",
 		"eslint-config-prettier": "^8.1.0",
 		"eslint-plugin-svelte3": "^3.2.0",

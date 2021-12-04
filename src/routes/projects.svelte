@@ -42,7 +42,7 @@
 		},
 		{
 			title: 'Wave',
-			link: 'https://projects.pyxxilated.studio/wave/',
+			link: 'https://wave.pyxxilated.studio/',
 			source: 'https://github.com/Pyxxilated-Studios/wave',
 			description:
 				'This project is a rewrite/fork of a project I was a part of during my final semester as an Honours student at the University of Auckland. The original project is called Roll for Reaction, and is written in JavaScript whereas this is written in TypeScript.'

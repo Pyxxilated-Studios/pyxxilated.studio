@@ -9,7 +9,7 @@
 	const projects: Project[] = [
 		{
 			title: 'Budgie',
-			link: 'https://projects.pyxxilated.studio/budgie',
+			link: 'https://budgie.pyxxilated.studio',
 			source: 'https://github.com/Pyxxilated-Studios/Budgie',
 			description:
 				'Budgie is a simple budgeting App I am working on to keep track of my finances. It is written in TypeScript, using React + MaterialUI.'

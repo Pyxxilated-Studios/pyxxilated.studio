@@ -7,12 +7,12 @@ module.exports = {
 		removeDeprecatedGapUtilities: true
 	},
 	// you dont need `purge: enabled: production` because you are using jit
-	purge: [
+	content: [
 		'./src/**/*.svelte',
 		// may also want to include HTML files
 		'./src/**/*.html'
 	],
-	darkMode: false,
+	darkMode: 'media',
 	theme: {
 		extend: {
 			colors: {

@@ -2078,10 +2078,10 @@ svelte-preprocess@^5.0.3, svelte-preprocess@^5.0.4:
     sorcery "^0.11.0"
     strip-indent "^3.0.0"
 
-svelte@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-4.0.1.tgz#5c01f5f7cb05ac21ffe3a741e0c942972dc47c05"
-  integrity sha512-7n2u7A5cu8xCY6MBiXh/Mg6Lh3+Mw2qXlTDBYhzvCvmSM4L4gc4MVo540UtGcjqBiA48E1VDW+EUpBr7iuBlPg==
+svelte@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-4.0.5.tgz#4c4f418c38c5124be081d0720fb7efecfba501cc"
+  integrity sha512-PHKPWP1wiWHBtsE57nCb8xiWB3Ht7/3Kvi3jac0XIxUM2rep8alO7YoAtgWeGD7++tFy46krilOrPW0mG3Dx+A==
   dependencies:
     "@ampproject/remapping" "^2.2.1"
     "@jridgewell/sourcemap-codec" "^1.4.15"

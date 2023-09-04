@@ -277,10 +277,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@sveltejs/adapter-cloudflare@^2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-2.3.2.tgz#000b8376fe9205a0ca58bc8314f1cd3ccc5f5ed0"
-  integrity sha512-BpgFmVJInF2D0Uo41gJtvYyTiZ6P/xkfrQSqPHQOGYsjvFeW+1AjX/8MPIJ3VJyvbVgyRaVKMBsXWHADbAYatQ==
+"@sveltejs/adapter-cloudflare@^2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-cloudflare/-/adapter-cloudflare-2.3.3.tgz#1e23a36eb23b151ee129b191866a0cc882576db7"
+  integrity sha512-bbcm6kq4dEluFtFJZed3KSRG4f5GUElYkVfOmnPruTqZ29nTElPJTomAu5QCp7GLkwA26O3h1Dk7+d9yLTQEXg==
   dependencies:
     "@cloudflare/workers-types" "^4.20230404.0"
     esbuild "^0.18.11"

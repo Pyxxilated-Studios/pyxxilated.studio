@@ -11,3 +11,7 @@ updates:
       interval: "weekly"
     labels:
       - "dependencies"
+    groups:
+      client-dependencies:
+        patterns:
+          - "*"

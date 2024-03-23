@@ -46,7 +46,7 @@
 
 <h1>Welcome to Pyxxilated Studios</h1>
 
-<h2>Hi, my name is Josh (aka Pyxxil)</h2>
+<h2>Hi, my name is Pyxxil</h2>
 
 {#each reasons as reason}
 	<h3 class="font-bold">

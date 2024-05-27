@@ -13,11 +13,11 @@
 	"devDependencies": {
 		"@fullhuman/postcss-purgecss": "^6.0.0",
 		"@sveltejs/adapter-cloudflare": "^4.4.0",
-		"@sveltejs/kit": "^2.5.9",
+		"@sveltejs/kit": "^2.5.10",
 		"@sveltejs/vite-plugin-svelte": "^3.1.0",
 		"@tailwindcss/typography": "^0.5.13",
-		"@typescript-eslint/eslint-plugin": "^7.9.0",
-		"@typescript-eslint/parser": "^7.9.0",
+		"@typescript-eslint/eslint-plugin": "^7.10.0",
+		"@typescript-eslint/parser": "^7.10.0",
 		"autoprefixer": "^10.4.19",
 		"eslint": "^9.3.0",
 		"eslint-config-prettier": "^9.1.0",
@@ -34,7 +34,7 @@
 		"tslib": "^2.6.2",
 		"typescript": "^5.4.5",
 		"vite": "^5.2.11",
-		"wrangler": "^3.57.0"
+		"wrangler": "^3.57.1"
 	},
 	"type": "module"
 }

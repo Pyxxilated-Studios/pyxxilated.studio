@@ -12,12 +12,12 @@
 	},
 	"devDependencies": {
 		"@fullhuman/postcss-purgecss": "^6.0.0",
-		"@sveltejs/adapter-cloudflare": "^4.6.0",
+		"@sveltejs/adapter-cloudflare": "^4.6.1",
 		"@sveltejs/kit": "^2.5.18",
 		"@sveltejs/vite-plugin-svelte": "^3.1.1",
 		"@tailwindcss/typography": "^0.5.13",
-		"@typescript-eslint/eslint-plugin": "^7.14.1",
-		"@typescript-eslint/parser": "^7.14.1",
+		"@typescript-eslint/eslint-plugin": "^7.15.0",
+		"@typescript-eslint/parser": "^7.15.0",
 		"autoprefixer": "^10.4.19",
 		"eslint": "^9.6.0",
 		"eslint-config-prettier": "^9.1.0",
@@ -32,9 +32,9 @@
 		"svelte-preprocess": "^6.0.1",
 		"tailwindcss": "^3.4.4",
 		"tslib": "^2.6.3",
-		"typescript": "^5.5.2",
-		"vite": "^5.3.2",
-		"wrangler": "^3.62.0"
+		"typescript": "^5.5.3",
+		"vite": "^5.3.3",
+		"wrangler": "^3.63.1"
 	},
 	"type": "module"
 }

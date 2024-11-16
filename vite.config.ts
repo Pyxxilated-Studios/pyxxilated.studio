@@ -1,6 +1,6 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import type { UserConfig } from 'vite';
-import { uglify } from 'rollup-plugin-uglify';
+import terser from '@rollup/plugin-terser';
 
 const config: UserConfig = {
 	plugins: [sveltekit()],
@@ -12,7 +12,7 @@ const config: UserConfig = {
 	build: {
 		reportCompressedSize: false,
 		rollupOptions: {
-			plugins: [uglify()],
+			plugins: [terser()],
 			output: {
 				generatedCode: {
 					objectShorthand: true

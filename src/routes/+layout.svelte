@@ -17,7 +17,7 @@
 <footer
 	class="z-50 w-full mx-auto fixed bottom-0 bg-background flex flex-row justify-center space-x-4 p-4"
 >
-	<a href="https://www.github.com/pyxxil">
+	<a href="https://www.github.com/pyxxil" aria-label="Github">
 		<svg
 			aria-label="Github"
 			xmlns="http://www.w3.org/2000/svg"

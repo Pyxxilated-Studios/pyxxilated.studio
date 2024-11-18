@@ -2345,10 +2345,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte-check@^4.0.8:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-4.0.8.tgz#50706b6b82136a31c7c995950404f897468900a1"
-  integrity sha512-nYxbPa0GJySVLhrplvpdGGdwst/7r/H9N991PVYk3BtSIuWBw5ihItHCDJu7hE1S0bPSRJ6IJ2yTCQeDUk0ZDg==
+svelte-check@^4.0.9:
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-4.0.9.tgz#abfd7a50f699882de46e94edfca3539fefc4193c"
+  integrity sha512-SVNCz2L+9ZELGli7G0n3B3QE5kdf0u27RtKr2ZivWQhcWIXatZxwM4VrQ6AiA2k9zKp2mk5AxkEhdjbpjv7rEw==
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.25"
     chokidar "^4.0.1"
@@ -2372,10 +2372,10 @@ svelte-preprocess@^6.0.3:
   resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-6.0.3.tgz#fdc1f9dc41b6f22bf8b1f059e9f21eaaae181eeb"
   integrity sha512-PLG2k05qHdhmRG7zR/dyo5qKvakhm8IJ+hD2eFRQmMLHp7X3eJnjeupUtvuRpbNiF31RjVw45W+abDwHEmP5OA==
 
-svelte@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.2.1.tgz#41d30987b9a2389b525e88b50ef819f131b39473"
-  integrity sha512-WzyA7VUVlDTLPt+m71bLD5BXasavqvAo68DelxWaPo8dNEZ3tmeq3DSJPsWqnG37cG2hfn7HaD3x882qF+7UOw==
+svelte@^5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.2.2.tgz#a9d28dd6942e59f303298902c546909161452b45"
+  integrity sha512-eHIJRcvA6iuXdRGMESTmBtWTQCcCiol4gyH9DA60ybS35W1x27cvtbndNvWDqX72blyf+AYeQ4gzZ0XGg3L8sw==
   dependencies:
     "@ampproject/remapping" "^2.3.0"
     "@jridgewell/sourcemap-codec" "^1.5.0"

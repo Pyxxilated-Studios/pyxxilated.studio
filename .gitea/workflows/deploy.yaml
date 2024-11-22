@@ -1,0 +1,11 @@
+name: Deploy to Cloudflare
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Install yarn
+        run: sudo apt install -y yarn

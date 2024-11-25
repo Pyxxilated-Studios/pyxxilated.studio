@@ -11,13 +11,13 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@fullhuman/postcss-purgecss": "^6.0.0",
+		"@fullhuman/postcss-purgecss": "^7.0.2",
 		"@sveltejs/adapter-cloudflare": "^4.7.4",
-		"@sveltejs/kit": "^2.8.1",
+		"@sveltejs/kit": "^2.8.2",
 		"@sveltejs/vite-plugin-svelte": "^4.0.1",
 		"@tailwindcss/typography": "^0.5.15",
-		"@typescript-eslint/eslint-plugin": "^8.14.0",
-		"@typescript-eslint/parser": "^8.14.0",
+		"@typescript-eslint/eslint-plugin": "^8.15.0",
+		"@typescript-eslint/parser": "^8.15.0",
 		"autoprefixer": "^10.4.20",
 		"eslint": "^9.15.0",
 		"eslint-config-prettier": "^9.1.0",
@@ -25,16 +25,16 @@
 		"postcss": "^8.4.49",
 		"postcss-csso": "^6.0.1",
 		"prettier": "~3.3.3",
-		"prettier-plugin-svelte": "^3.2.8",
+		"prettier-plugin-svelte": "^3.3.2",
 		"@rollup/plugin-terser": "^0.4.4",
-		"svelte": "^5.2.2",
-		"svelte-check": "^4.0.9",
+		"svelte": "^5.2.7",
+		"svelte-check": "^4.1.0",
 		"svelte-preprocess": "^6.0.3",
 		"tailwindcss": "^3.4.15",
 		"tslib": "^2.8.1",
-		"typescript": "^5.6.3",
+		"typescript": "^5.7.2",
 		"vite": "^5.4.11",
-		"wrangler": "^3.87.0"
+		"wrangler": "^3.90.0"
 	},
 	"type": "module"
 }
